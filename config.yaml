@@ -1,0 +1,105 @@
+baseURL: /
+languageCode: en-us
+title: Arie Automontage
+theme: hugo-fresh
+googleAnalytics: UA-63095984-5 # Put in your tracking code without quotes like this: UA-XXXXXX...
+# Disables warnings
+disableKinds:
+- taxonomy
+- taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy 
+  description: 
+  navbarlogo:
+  # Logo (from static/images/___)
+    image: logos/logo-blue.png
+    link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Arie en Anne-Marie.
+    # Hero subtitle (optional)
+    subtitle: Vakmanschap en kwaliteit. Uw auto is onze zorg.
+    # Button text
+    buttontext: Neem contact met ons op
+    # Where the main hero button links to
+    buttonlink: "/contact"
+    # Hero image (from static/images/___)
+    image: arie-anne-marie.jpg
+    # Footer logos (from static/images/logos/clients/___.svg)
+    #clientlogos:
+    #- systek
+    #- tribe
+    #- kromo
+    #- infinite
+    #- gutwork
+  
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Over Ons
+    url: /about
+  - title: Diensten
+    url: /services
+  - title: Projecten
+    url: /projects
+  - title: Contact
+    url: /contact
+
+  section1:
+    title: Onze diensten
+    subtitle: wat kunen wij voor u doen?
+    tiles:
+    - title: Montage en demontage
+      icon: mouse-globe
+      text: This is some explanatory text that is on two rows
+      url: /services
+      buttonText: Meer informatie
+    - title: Schadeherstel
+      icon: laptop-cloud
+      text: This is some explanatory text that is on two rows
+      url: /services
+      buttonText: Meer informatie
+    - title: Smart repair
+      icon: plug-cloud
+      text: This is some explanatory text that is on two rows
+      url: /services
+      buttonText: Meer informatie
+  section2:
+    title: Onze projecten
+    subtitle: wat hebben we al voor anderen gedaan?
+    tiles:
+    - title: Montage en demontage
+      icon: mouse-globe
+      text: This is some explanatory text that is on two rows
+      url: /
+      buttonText: Free trial
+    - title: Schadeherstel
+      icon: laptop-cloud
+      text: This is some explanatory text that is on two rows
+      url: /
+      buttonText: Get started
+    - title: Smart repair
+      icon: plug-cloud
+      text: This is some explanatory text that is on two rows
+      url: /
+      buttonText: Get started
+  footer:
+    # Logo (from /images/logos/___)
+    logo: logo-white.png
+    # Social Media Title
+    socialmediatitle: Social Media
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/lucperkins/github-fresh
+      # Icons are from Font Awesome
+    - link: https://facebook.com/ArieAutomontage
+      icon: facebook
