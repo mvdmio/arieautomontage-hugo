@@ -45,12 +45,10 @@ params:
   
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Over Ons
+  - title: Over ons
     url: /about
   - title: Diensten
     url: /services
-  - title: Projecten
-    url: /projects
   - title: Contact
     url: /contact
 
@@ -59,39 +57,25 @@ params:
     subtitle: wat kunen wij voor u doen?
     tiles:
     - title: Montage en demontage
-      icon: mouse-globe
-      text: This is some explanatory text that is on two rows
+      icon: montage_demontage.jpg
+      text: Speciale montage en demontage klussen aan uw (bedrijfs)auto.
+      url: /services
+      buttonText: Meer informatie
+    - title: Stoom reiniging
+      icon: steam_cleaning.jpg
+      text: Uw auto binnen en buiten glanzend schoon, zonder chemicaliën.
       url: /services
       buttonText: Meer informatie
     - title: Schadeherstel
-      icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
+      icon: schadeherstel.jpg
+      text: Al jarenlang het juiste adres om uw schade te laten repareren.
       url: /services
       buttonText: Meer informatie
-    - title: Smart repair
-      icon: plug-cloud
-      text: This is some explanatory text that is on two rows
-      url: /services
-      buttonText: Meer informatie
-  section2:
-    title: Onze projecten
-    subtitle: wat hebben we al voor anderen gedaan?
-    tiles:
-    - title: Montage en demontage
-      icon: mouse-globe
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Free trial
-    - title: Schadeherstel
-      icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-    - title: Smart repair
-      icon: plug-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
+
+  #section2:
+  #section3:
+  #section4:
+  #section5:
   footer:
     # Logo (from /images/logos/___)
     logo: logo-white.png
@@ -99,7 +83,8 @@ params:
     socialmediatitle: Social Media
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://github.com/lucperkins/github-fresh
       # Icons are from Font Awesome
-    - link: https://facebook.com/ArieAutomontage
+    - link: https://facebook.com/arieautomontage
       icon: facebook
+    - link: https://www.instagram.com/arieautomontage/
+      icon: instagram
