@@ -54,7 +54,7 @@ params:
 
   section1:
     title: Onze diensten
-    subtitle: wat kunen wij voor u doen?
+    subtitle: Wat kunnen wij voor u doen?
     tiles:
     - title: Montage en demontage
       icon: montage_demontage.jpg

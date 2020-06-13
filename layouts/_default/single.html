@@ -6,10 +6,6 @@
     {{ partial "css.html" . }}
   </head>
   <body class="flex flex-col">
-    <!-- Preloader -->
-    <div id="preloader">
-      <div id="status"></div>
-    </div>
 
     {{ block "main" . }}
 
@@ -27,7 +23,7 @@
     <div id="backtotop"><a href="#"></a></div>
 
     {{ if .Params.sidebar }}
-    {{ partial "single/sidebar.html" . }}
+      {{ partial "single/sidebar.html" . }}
     {{ end }}
 
     {{ end }}

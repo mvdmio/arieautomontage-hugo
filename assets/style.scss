@@ -1,15 +1,8 @@
 @import "bulma/bulma";
 @import "fresh/core";
 
+@import "custom/layout";
+@import "custom/typography";
 @import "custom/flex";
 @import "custom/section";
 @import "custom/table";
-
-html,
-body {
-    min-height: 100vh;
-}
-
-.columns {
-    align-content: stretch;
-}
