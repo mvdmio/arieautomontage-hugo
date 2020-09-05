@@ -20,6 +20,7 @@ params:
   navbarlogo:
   # Logo (from static/images/___)
     image: logos/logo-blue.png
+    image2: logos/logo-steam-blue.png
     link: /
   font:
     name: "Open Sans"
@@ -79,6 +80,7 @@ params:
   footer:
     # Logo (from /images/logos/___)
     logo: logo-white.png
+    logo2: logo-steam-white.png
     # Social Media Title
     socialmediatitle: Social Media
     # Social media links (GitHub, Twitter, etc.). All are optional.
