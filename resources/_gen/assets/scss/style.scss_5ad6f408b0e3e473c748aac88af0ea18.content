@@ -4312,7 +4312,7 @@ a.navbar-item,
   flex-grow: 0;
   flex-shrink: 0; }
   .navbar-item img {
-    max-height: 1.75rem; }
+    max-height: 4rem; }
   .navbar-item.has-dropdown {
     padding: 0; }
   .navbar-item.is-expanded {
@@ -6169,7 +6169,7 @@ Navbar
 .navbar.is-fresh {
   position: relative;
   min-height: 3.8rem;
-  transition: all .3s;
+  transition: all 0.3s;
   z-index: 99; }
   .navbar.is-fresh .container {
     min-height: 4rem; }
@@ -6187,7 +6187,7 @@ Navbar
   .navbar.is-fresh .navbar-item {
     color: #444F60; }
     .navbar.is-fresh .navbar-item img {
-      max-height: 3rem; }
+      height: 4rem; }
     .navbar.is-fresh .navbar-item.is-secondary:hover {
       color: #F39200 !important; }
     .navbar.is-fresh .navbar-item.has-dropdown {
@@ -6214,7 +6214,7 @@ Navbar
     .navbar.is-fresh .navbar-item .signup {
       display: block;
       line-height: 0;
-      font-size: .9rem !important; }
+      font-size: 0.9rem !important; }
   .navbar.is-fresh.is-fixed {
     position: fixed;
     top: 0;
@@ -6399,7 +6399,7 @@ footer.footer-dark {
   padding: 1rem;
   margin-top: 2rem; }
   footer.footer-dark .footer-logo img {
-    height: 40px; }
+    height: 5rem; }
   footer.footer-dark .footer-column .footer-header h3 {
     font-weight: 500;
     font-size: 1.2rem;

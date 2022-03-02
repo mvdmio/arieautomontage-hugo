@@ -5,88 +5,86 @@ theme: hugo-fresh
 googleAnalytics: UA-63095984-5 # Put in your tracking code without quotes like this: UA-XXXXXX...
 # Disables warnings
 disableKinds:
-- taxonomy
-- taxonomyTerm
+   - taxonomy
+   - taxonomyTerm
 markup:
-  goldmark:
-    renderer:
-      unsafe: true # Allows you to write raw html in your md files
+   goldmark:
+      renderer:
+         unsafe: true # Allows you to write raw html in your md files
 
 params:
-  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
-  openGraph: true
-  # Used as meta data; describe your site to make Google Bots happy 
-  description: 
-  navbarlogo:
-  # Logo (from static/images/___)
-    image: logos/logo-blue.png
-    image2: logos/logo-steam-blue.png
-    link: /
-  font:
-    name: "Open Sans"
-    sizes: [400,600]
-  hero:
-    # Main hero title
-    title: Arie en Anne-Marie.
-    # Hero subtitle (optional)
-    subtitle: Vakmanschap en kwaliteit. Uw auto is onze zorg.
-    # Button text
-    buttontext: Neem contact met ons op
-    # Where the main hero button links to
-    buttonlink: "/contact"
-    # Hero image (from static/images/___)
-    image: arie-anne-marie.jpg
-    # Footer logos (from static/images/logos/clients/___.svg)
-    #clientlogos:
-    #- systek
-    #- tribe
-    #- kromo
-    #- infinite
-    #- gutwork
-  
-  # Customizable navbar. For a dropdown, add a "sublinks" list.
-  navbar:
-  - title: Over ons
-    url: /about
-  - title: Diensten
-    url: /services
-  - title: Contact
-    url: /contact
+   # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+   openGraph: true
+   # Used as meta data; describe your site to make Google Bots happy
+   description:
+   navbarlogo:
+      # Logo (from static/images/___)
+      image: logos/logo-blue.svg
+      link: /
+   font:
+      name: "Open Sans"
+      sizes: [400, 600]
+   hero:
+      # Main hero title
+      title: Arie van der Meer Automontage
+      # Hero subtitle (optional)
+      subtitle: Vakmanschap en kwaliteit. Uw auto is onze zorg.
+      # Button text
+      buttontext: Neem contact met ons op
+      # Where the main hero button links to
+      buttonlink: "/contact"
+      # Hero image (from static/images/___)
+      image: logos/logo-blue.svg
+      # Footer logos (from static/images/logos/clients/___.svg)
+      #clientlogos:
+      #- systek
+      #- tribe
+      #- kromo
+      #- infinite
+      #- gutwork
 
-  section1:
-    title: Onze diensten
-    subtitle: Wat kunnen wij voor u doen?
-    tiles:
-    - title: Montage en demontage
-      icon: montage_demontage.jpg
-      text: Speciale montage en demontage klussen aan uw (bedrijfs)auto.
-      url: /services
-      buttonText: Meer informatie
-    - title: Stoom reiniging
-      icon: steam_cleaning.jpg
-      text: Uw auto binnen en buiten glanzend schoon, zonder chemicaliën.
-      url: /services
-      buttonText: Meer informatie
-    - title: Schadeherstel
-      icon: schadeherstel.jpg
-      text: Al jarenlang het juiste adres om uw schade te laten repareren.
-      url: /services
-      buttonText: Meer informatie
+   # Customizable navbar. For a dropdown, add a "sublinks" list.
+   navbar:
+      - title: Over ons
+        url: /about
+      - title: Diensten
+        url: /services
+      - title: Contact
+        url: /contact
 
-  #section2:
-  #section3:
-  #section4:
-  #section5:
-  footer:
-    # Logo (from /images/logos/___)
-    logo: logo-white.png
-    logo2: logo-steam-white.png
-    # Social Media Title
-    socialmediatitle: Social Media
-    # Social media links (GitHub, Twitter, etc.). All are optional.
-    socialmedia:
-      # Icons are from Font Awesome
-    - link: https://facebook.com/arieautomontage
-      icon: facebook
-    - link: https://www.instagram.com/arieautomontage/
-      icon: instagram
+   section1:
+      title: Onze diensten
+      subtitle: Wat kunnen wij voor u doen?
+      tiles:
+         - title: Montage en demontage
+           icon: montage_demontage.jpg
+           text: Speciale montage en demontage klussen aan uw (bedrijfs)auto.
+           url: /services
+           buttonText: Meer informatie
+         - title: Stoom reiniging
+           icon: steam_cleaning.jpg
+           text: Uw auto binnen en buiten glanzend schoon, zonder chemicaliën.
+           url: /services
+           buttonText: Meer informatie
+         - title: Schadeherstel
+           icon: schadeherstel.jpg
+           text: Al jarenlang het juiste adres om uw schade te laten repareren.
+           url: /services
+           buttonText: Meer informatie
+
+   #section2:
+   #section3:
+   #section4:
+   #section5:
+   footer:
+      # Logo (from /images/logos/___)
+      logo: logo-white.svg
+      # Social Media Title
+      socialmediatitle: Social Media
+      # Social media links (GitHub, Twitter, etc.). All are optional.
+      socialmedia:
+         # Icons are from Font Awesome
+         - link: https://facebook.com/arieautomontage
+           icon: facebook
+         - link: https://www.instagram.com/arieautomontage/
+           icon: instagram
